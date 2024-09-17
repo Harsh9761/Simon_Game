@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2rem;
+    box-shadow: 1px 1px 8px rgb(55, 55, 55);
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: greenyellow;
+}
+.purple{
+    background-color: plum;
+}
+
+.btn:hover{
+    box-shadow: 2px 2px 16px rgb(55, 55, 55);
+}
+.flash{
+    background-color: white;
+}
